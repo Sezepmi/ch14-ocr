@@ -1,0 +1,1 @@
+# Core del microservicio OCR

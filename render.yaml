@@ -1,0 +1,16 @@
+# Blueprint Render — https://render.com/deploy?repo=https://github.com/sezep/ch14-ocr
+# Tras el deploy, la URL base será https://ch14-ocr.onrender.com (nombre del servicio).
+
+services:
+  - type: web
+    name: ch14-ocr
+    runtime: docker
+    plan: standard
+    healthCheckPath: /health
+    envVars:
+      - key: OCR_ENGINE
+        value: easyocr
+      - key: OCR_GPU
+        value: "false"
+      - key: PYTHONUNBUFFERED
+        value: "1"

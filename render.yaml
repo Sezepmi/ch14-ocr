@@ -1,4 +1,4 @@
-# Blueprint Render — https://render.com/deploy?repo=https://github.com/sezep/ch14-ocr
+# Blueprint Render — https://render.com/deploy?repo=https://github.com/Sezepmi/ch14-ocr
 # Tras el deploy, la URL base será https://ch14-ocr.onrender.com (nombre del servicio).
 
 services:

@@ -10,8 +10,8 @@ Health: `https://ch14-ocr.onrender.com/health` → `{"ok":true,...}`
 
 ## Opción A — Un clic (recomendada)
 
-1. Repo: https://github.com/sezep/ch14-ocr  
-2. Abre: https://render.com/deploy?repo=https://github.com/sezep/ch14-ocr  
+1. Repo: https://github.com/Sezepmi/ch14-ocr  
+2. Abre: https://render.com/deploy?repo=https://github.com/Sezepmi/ch14-ocr  
 3. Crea el **Web Service** (plan **Standard** recomendado por RAM/EasyOCR).  
 4. Espera el primer build (puede tardar 15–25 min por modelos OCR).  
 5. Cuando esté **Live**, en appPlus ejecuta:
@@ -26,7 +26,7 @@ Health: `https://ch14-ocr.onrender.com/health` → `{"ok":true,...}`
 
 ## Opción B — Dashboard manual
 
-- New → Web Service → Docker → repo `sezep/ch14-ocr`  
+- New → Web Service → Docker → repo `Sezepmi/ch14-ocr`  
 - Health check path: `/health`  
 - Puerto: el que inyecte Render (`PORT`); el Dockerfile ya lo respeta.
 
